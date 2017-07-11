@@ -49,7 +49,7 @@ namespace IntroOOP
             set { this.weight = value; }
         }
 
-        // This is the behavior: Constructor and Behavior
+        // This is the behavior: Constructor and Method
 
         // This is the constructor 
         public Dog()
@@ -67,7 +67,7 @@ namespace IntroOOP
             this.weight = weight;
         }
 
-        // This is the behavior
+        // This is the method
         public int Run()
         {
             Console.WriteLine("Go doddy go!");

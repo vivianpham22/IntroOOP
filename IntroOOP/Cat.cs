@@ -40,12 +40,14 @@ namespace IntroOOP
         //         - Allows us to control the sata of an object upon creation.
         //         - Allows us to perform any action the object might need upon creation/
         //         - Always shares the name of the class
+
+        // This is the constructor 
         public Cat()
         {
             // This is an example of a default constructor. A default constructor takes
             // no arugments/paramaters.
         }
-
+        
         // Can have as many constructors as you need as long as they each have a unique signature.
         // By signature, I mean the paramaters in the perentheses after the constructor name.
         public Cat(string name, int age, string furColor)
@@ -62,7 +64,10 @@ namespace IntroOOP
                 isHungry = false;
             }
             Console.WriteLine("Is the cat hungry? " + isHungry);
-        }
 
+
+        
+        }
+       
     }
 }
