@@ -28,6 +28,12 @@ namespace IntroOOP
         }
 
 
+        public int Age
+        {
+            get { return this.age; }
+        }
+
+
         // We also have behavior.
         // - Methods: repeatable/reusable sections of code - Actions
         // - Constructors: specialized methods that are used from instantiating an object
@@ -40,6 +46,8 @@ namespace IntroOOP
             // no arugments/paramaters.
         }
 
+        // Can have as many constructors as you need as long as they each have a unique signature.
+        // By signature, I mean the paramaters in the perentheses after the constructor name.
         public Cat(string name, int age, string furColor)
         {
             this.name = name;
