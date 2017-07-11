@@ -18,10 +18,21 @@ namespace IntroOOP
 
             // The FORMAT that we use to instaniate an object looks like this: 
             // ClassName objectName = new ClassName();
-            Cat mittens = new Cat();
 
-            mittens.Name = "Mittens"; //<---- using the set
-            Console.WriteLine(mittens.Age);
+            //Cat mittens = new Cat();
+            //mittens.Name = "Mittens"; //<---- using the set
+            //Console.WriteLine(mittens.Age);
+
+            Cat firstCat = new Cat();
+
+            firstCat.Name = "Mittens";
+            // Console.WriteLine(firstCat.Age);
+
+            Cat secondCat = new Cat("Oz", 3, "Orange and white");
+            secondCat.Name = "Ozzy";
+            Console.WriteLine(secondCat.Name);
+            Console.WriteLine(secondCat.Age);
+            secondCat.Eat();
 
 
             // To create a new object, we use a special method called a CONSTRUCTOR
